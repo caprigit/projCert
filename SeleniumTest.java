@@ -16,7 +16,7 @@ public class SeleniumTest {
 
                 WebDriver driver = new ChromeDriver(chromeOptions);
 
-                driver.get("http://puppetagent");
+                driver.get("http://localhost");
 		Thread.sleep(1000);
 		driver.findElement(By.id ("About Us")).click();
 
